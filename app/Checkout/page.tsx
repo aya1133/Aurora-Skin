@@ -4,12 +4,11 @@ import { useCartStore } from "@/store/cart-store"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import  Link  from "next/link";
 import { useRouter } from "next/navigation";
 
 export default function CheckoutPage(){
 
-const {items, removeItem, addItem,claerCart} = useCartStore();
+const {items, removeItem, addItem} = useCartStore();
 const total = items.reduce((acc,item) => acc + item.price * item.quantity, 0 );
 const router = useRouter();
 if(items.length === 0){
