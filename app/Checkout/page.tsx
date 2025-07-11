@@ -4,7 +4,6 @@ import { useCartStore } from "@/store/cart-store"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import  Link  from "next/link";
 import { useRouter } from "next/navigation";
 
 export default function CheckoutPage(){
