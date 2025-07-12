@@ -57,7 +57,9 @@ git clone https://github.com/aya1133/Aurora-Skin.git
 cd Aurora-Skin
 npm install
 npm run dev
-📌 Future Improvements
+```
+---
+##📌 Future Improvements
 Integrate real local payment methods (e.g., Zain Cash, Iraqi Visa)
 
 Admin panel to manage orders and products
@@ -65,7 +67,7 @@ Admin panel to manage orders and products
 Add authentication (sign in / guest checkout)
 
 Store customer orders in a database (MongoDB / PostgreSQL)
-
+ ---
 ## 🙋‍♀️ Author
 Built by Aya Khaled
 
@@ -73,7 +75,7 @@ yaml
 Copy
 Edit
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
+---
 ## Getting Started
 
 First, run the development server:
