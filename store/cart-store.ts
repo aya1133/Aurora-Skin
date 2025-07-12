@@ -13,7 +13,7 @@ interface CartStore{
     items: CartItem[];
     addItem: (item: CartItem) => void;
     removeItem: (id: string) => void;
-    claerCart: () => void;
+    clearCart: () => void;
 }
 export const useCartStore = create<CartStore>()(
     persist(
@@ -39,7 +39,7 @@ addItem: (item) => set((state) => {
        .filter((item) => item.quantity > 0),
       };
      }),
-    claerCart:() => 
+    clearCart:() => 
         set(() => {
           return { items: []};
    }),
